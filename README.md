@@ -58,7 +58,7 @@ Die Vorlagen folgen folgenden Prinzipien:
 
 ⸻
 
-Anwendungshinweise
+## Anwendungshinweise
 
 1. Keine identifizierenden Patientendaten eingeben
 
@@ -145,7 +145,7 @@ Die Vorlagen sind generisch und sollten an lokale Anforderungen angepasst werden
 
 ⸻
 
-Empfohlener Workflow
+## Empfohlener Workflow
 
 Klinische Fallanalyse
 
@@ -214,7 +214,7 @@ Die Qualität der KI-Ausgabe hängt wesentlich ab von:
 
 ⸻
 
-Datenschutz und Vertraulichkeit
+## Datenschutz und Vertraulichkeit
 
 Bei der Nutzung von KI-Systemen im medizinischen Kontext müssen Datenschutz, ärztliche Schweigepflicht, lokale IT-Vorgaben und institutionelle Freigaben beachtet werden.
 
@@ -224,7 +224,7 @@ Für öffentliche Beispiele sollten ausschließlich vollständig synthetische F�
 
 ⸻
 
-Haftungsausschluss
+## Haftungsausschluss
 
 Die Inhalte dieser Sammlung wurden mit dem Ziel erstellt, ärztliche Anwender:innen beim strukturierten Einsatz von KI-Chatbots zu unterstützen.
 
@@ -246,7 +246,7 @@ Die Autor:innen dieser Sammlung übernehmen keine Haftung für Schäden, Fehlent
 
 ⸻
 
-Mitarbeit und Feedback
+## Mitarbeit und Feedback
 
 Rückmeldungen, Verbesserungsvorschläge und fachliche Ergänzungen sind willkommen.
 
