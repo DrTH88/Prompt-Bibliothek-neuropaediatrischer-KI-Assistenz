@@ -262,3 +262,11 @@ Besonders hilfreich sind Hinweise zu:
 * praktischer Nutzbarkeit im Klinik- oder Praxisalltag
 
 Bitte keine echten Patientendaten in Issues, Pull Requests, Kommentaren oder Beispielen veröffentlichen.
+
+## Lizenz
+
+Die Prompt-Vorlagen, Texte und Dokumentationsinhalte dieses Repositorys stehen, sofern nicht anders angegeben, unter der Creative Commons Attribution 4.0 International License (CC BY 4.0).
+
+Sie dürfen geteilt, weitergegeben, verändert und angepasst werden, sofern eine angemessene Namensnennung erfolgt.
+
+Falls zukünftig Code, Skripte oder Softwarebestandteile ergänzt werden, können diese gesondert unter einer geeigneten Softwarelizenz, z. B. GNU GPLv3 oder MIT License, veröffentlicht werden.
