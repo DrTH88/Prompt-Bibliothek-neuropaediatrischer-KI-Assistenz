@@ -34,16 +34,24 @@ Neuropädiatrische KI-Assistenz
 
 1. ChatGPT öffnen.
 2. In der Seitenleiste den Bereich für Projekte öffnen.
-3. Neues Projekt erstellen.
+3. `Neues Projekt` auswählen.
 4. Einen klaren Projektnamen vergeben, zum Beispiel `Neuropädiatrische KI-Assistenz`.
 5. Projekt speichern.
 
-![Screenshot-Platzhalter: Neues Projekt erstellen](../assets/screenshots/chatgpt-projekt-neu-erstellen.png)
+![Neues Projekt in der ChatGPT-Seitenleiste auswählen](../assets/screenshots/chatgpt-projekt-neu-erstellen.png)
+
+Im Erstellungsdialog wird der Projektname vergeben. Über `Weitere Optionen` können zusätzliche Einstellungen gesetzt werden.
+
+![Projekt benennen und erstellen](../assets/screenshots/chatgpt-projekt-dialog-benennen.png)
+
+Eine sinnvolle Einstellung ist `Nur Projekt`, wenn die Projekt-Erinnerungen nicht mit anderen Chats geteilt werden sollen. Das kann helfen, medizinische Arbeitskontexte klarer zu trennen.
+
+![Projekt-Erinnerungen auf Nur Projekt begrenzen](../assets/screenshots/chatgpt-projekteinstellungen-erinnerung.png)
 
 ## Schritt 2: Projekt-Hinweise öffnen
 
 1. Das neu erstellte Projekt öffnen.
-2. Die Projekt-Einstellungen bzw. Projekt-Hinweise öffnen.
+2. Über das Drei-Punkte-Menü `Hinweise bearbeiten` auswählen.
 3. Den Bereich suchen, in dem dauerhafte Anweisungen oder Hinweise für dieses Projekt hinterlegt werden können.
 
 Je nach ChatGPT-Oberfläche kann dieser Bereich unterschiedlich benannt sein, zum Beispiel:
@@ -54,7 +62,7 @@ Je nach ChatGPT-Oberfläche kann dieser Bereich unterschiedlich benannt sein, zu
 - `Projekt-Hinweise`
 - `Custom instructions`
 
-![Screenshot-Platzhalter: Projekt-Hinweise öffnen](../assets/screenshots/chatgpt-projekt-hinweise-oeffnen.png)
+![Drei-Punkte-Menü mit Hinweise bearbeiten](../assets/screenshots/chatgpt-projekt-menue-hinweise.png)
 
 ## Schritt 3: Universal-Prompt als Projekt-Hinweis hinterlegen
 
@@ -69,7 +77,7 @@ Vorgehen:
 3. In die Projekt-Hinweise von ChatGPT einfügen.
 4. Speichern.
 
-![Screenshot-Platzhalter: Universal-Prompt in Projekt-Hinweise einfügen](../assets/screenshots/chatgpt-universalprompt-hinterlegen.png)
+![Prompt in die Projekt-Hinweise einfügen](../assets/screenshots/chatgpt-hinweise-prompt-einfuegen.png)
 
 ## Schritt 4: Spezialprompts ergänzen
 
@@ -97,7 +105,7 @@ Geeignete Dateien:
 - [Administrative Tätigkeiten](../Prompts/05-administration-gutachten-antraege.md)
 - [Standard-Eingabeformular](../Prompts/08-standard-eingabeformular.md)
 
-![Screenshot-Platzhalter: Prompt-Dateien im Projekt hochladen](../assets/screenshots/chatgpt-prompt-dateien-hochladen.png)
+Ein Screenshot für den Datei-Upload kann später ergänzt werden, falls diese Funktion in der verwendeten ChatGPT-Version sichtbar ist.
 
 ### Variante B: Spezialprompts bei Bedarf manuell kopieren
 
@@ -114,7 +122,46 @@ Fall:
 
 Diese Variante ist besonders transparent, weil im jeweiligen Chat klar sichtbar bleibt, welcher Prompt verwendet wurde.
 
-## Schritt 5: Standard-Eingabeformular nutzen
+## Schritt 5: Quellen im Projekt nutzen
+
+Im Projekt gibt es neben `Chats` häufig auch den Bereich `Quellen`. Dort können Dateien hinterlegt werden, die ChatGPT innerhalb dieses Projekts als Kontext nutzen kann.
+
+Typische sinnvolle Quellen für dieses Projekt:
+
+- die Markdown-Dateien aus dem Ordner [Prompts](../Prompts)
+- eine lokale SOP oder hausinterne Vorlage, sofern die Nutzung in ChatGPT erlaubt ist
+- anonymisierte Musterfälle
+- eigene Formatvorlagen für Arztbriefe, Elterninformationen oder Stellungnahmen
+- das [Standard-Eingabeformular](../Prompts/08-standard-eingabeformular.md)
+
+Wichtige Einschränkung: Quellen sind Kontextmaterial, keine geprüfte Wahrheit. ChatGPT kann Inhalte aus Quellen falsch gewichten, falsch zusammenfassen oder mit Modellwissen vermischen. Medizinische Aussagen, Dosierungen, Leitlinienbezüge und Zitate müssen deshalb weiterhin geprüft werden.
+
+Nicht als Quelle hochladen:
+
+- echte Arztbriefe mit Patientendaten
+- Befunde mit Namen, Geburtsdatum, Fallnummern oder QR-Codes
+- Fotos, Videos oder Dokumente mit identifizierenden Merkmalen
+- Klinikinterne Dokumente, wenn die Nutzung in ChatGPT nicht freigegeben ist
+- urheberrechtlich geschützte Volltexte, wenn keine Nutzungsrechte bestehen
+
+Empfohlene Nutzung:
+
+1. Prompt-Dateien oder neutrale Vorlagen als Quellen hinzufügen.
+2. Im Chat konkret sagen, welche Quelle genutzt werden soll.
+3. Bei fachlichen Aussagen explizit um Trennung bitten zwischen:
+   - Angaben aus den Projekt-Quellen
+   - allgemeinem Modellwissen
+   - nicht verifizierten Annahmen
+
+Beispiel:
+
+```text
+Nutze bitte die Projektquelle zum Arztbrief-Prompt. Trenne in deiner Antwort klar zwischen Informationen aus meinen Notizen, Annahmen und offenen Punkten.
+```
+
+Ein Screenshot des Tabs `Quellen` kann später an dieser Stelle ergänzt werden.
+
+## Schritt 6: Standard-Eingabeformular nutzen
 
 Für klinische Fälle empfiehlt sich das Standard-Eingabeformular:
 
@@ -142,7 +189,7 @@ Neuropädiatrischer Fall, anonymisiert:
 -
 ```
 
-## Schritt 6: Sicheren Workflow etablieren
+## Schritt 7: Sicheren Workflow etablieren
 
 Empfohlener Ablauf:
 
@@ -196,15 +243,11 @@ Grundregeln:
 - Keine identifizierenden Patientendaten verwenden.
 ```
 
-## Benötigte Screenshots
+## Noch fehlender Screenshot
 
-Diese Anleitung enthält Platzhalter. Für eine bebilderte Endversion wären folgende Screenshots hilfreich:
+Die wichtigsten Schritte sind bereits bebildert. Für eine vollständigere Version wäre noch dieser Screenshot hilfreich:
 
-1. ChatGPT-Seitenleiste mit Projektbereich
-2. Dialog zum Erstellen eines neuen Projekts
-3. Projekt-Einstellungen bzw. Projekt-Hinweise
-4. eingefügter Universal-Prompt in den Projekt-Hinweisen
-5. optional: Datei-Upload im Projekt
+1. Projektansicht mit dem Tab `Quellen`
 
 Screenshots bitte ohne personenbezogene Daten, Chatverläufe oder Klinik-/Patienteninformationen erstellen.
 
