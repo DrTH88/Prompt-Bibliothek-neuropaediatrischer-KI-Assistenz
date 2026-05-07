@@ -37,6 +37,16 @@ Die Prompts sind nicht als direkte Patienteninformation ohne ärztliche Einordnu
 
 Die Prompts können einzeln verwendet oder als Grundlage für eigene lokale Vorlagen angepasst werden.
 
+- [Universal-Prompt für neuropädiatrische Assistenz](Prompts/01-universal-prompt.md)
+- [Differenzialdiagnostik in der Neuropädiatrie](Prompts/02-differenzialdiagnostik.md)
+- [Arztbrief aus Notizen und Befunden](Prompts/03-arztbrief-aus-notizen.md)
+- [Elterninformation in verständlicher Sprache](Prompts/04-elterninformation.md)
+- [Administrative Tätigkeiten, Gutachten und Anträge](Prompts/05-administration-gutachten-antraege.md)
+- [Verbesserte Langversion eines klinischen Assistenz-Prompts](Prompts/06-verbesserter-klinischer-assistenzprompt.md)
+- [Kurze Schnell-Prompts für den Alltag](Prompts/07-schnell-prompts.md)
+- [Standard-Eingabeformular für Fälle](Prompts/08-standard-eingabeformular.md)
+- [Beste Einzelvorlage für den Alltag](Prompts/09-beste-einzelvorlage.md)
+
 ⸻
 
 Grundprinzipien
