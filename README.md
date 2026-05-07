@@ -46,6 +46,7 @@ Die Prompts können einzeln verwendet oder als Grundlage für eigene lokale Vorl
 - [Kurze Schnell-Prompts für den Alltag](Prompts/07-schnell-prompts.md)
 - [Standard-Eingabeformular für Fälle](Prompts/08-standard-eingabeformular.md)
 - [Beste Einzelvorlage für den Alltag](Prompts/09-beste-einzelvorlage.md)
+- [Selbst formulierter und gut befundener Prompt - Stand 05/25](Prompts/10-selbst-formulierter-prompt-stand-05-25.md)
 
 ⸻
 
