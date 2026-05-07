@@ -73,6 +73,10 @@ Die Vorlagen folgen folgenden Prinzipien:
 
 1. Keine identifizierenden Patientendaten eingeben
 
+Eine praktische Schritt-für-Schritt-Anleitung zur Nutzung der Vorlagen in ChatGPT-Projekten findet sich hier:
+
+- [ChatGPT-Projekt erstellen und Prompts als Hinweise hinterlegen](Anleitung/chatgpt-projekt-erstellen-und-prompts-hinterlegen.md)
+
 Bitte keine Angaben verwenden, die eine Re-Identifikation ermöglichen könnten, insbesondere:
 
 * Name
